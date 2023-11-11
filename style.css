@@ -1,0 +1,75 @@
+/*
+    Selector {
+        propiedad: valor;
+        propiedad: valor;
+    }
+*/
+
+body {
+    /*Cambia color de fondo*/
+    background-color: rgb(203, 247, 232);
+    /*color del texto*/
+    color: blue;
+    /*cambiar de fuente de texto*/
+    font-family: 'Libre Baskerville', serif;
+}
+/*Cambio de color d elos h#*/
+h1{
+    color: brown;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+h3{
+    color: blueviolet;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+h4{
+    color: rgb(190, 126, 250);
+    font-family: 'Libre Baskerville', serif;
+}
+/*cambio color d eenlaces*/
+a{
+    color: rgb(16, 104, 63);
+}
+
+/*Cambio tamaño de imagenes*/
+img{
+    /* width-ancho // height-alto */
+    width: 20%;
+    
+}
+/* colocamos un punto (.) y la clase con que lo nombramos para modificar la imagen*/
+.logo{
+    margin: auto;
+    display: block;
+}
+.cancha{
+    width: 33%;
+    text-align: center;
+    /*centrar imagen*/
+    margin: auto;
+    display: block;
+}
+.V{
+    margin: auto;
+    display: block;
+}
+
+.F{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+.gatito-balon{
+    width: 20%;
+    /*border radius*/
+    border-radius: 15%;
+    /*sombras*/
+    box-shadow: 5px 5px 5px rgb(9, 9, 165);
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,182 @@
+<!--html:5 crea atomaticamente nuestro esqueleto-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadata para insertar info que no es visible en la pagina-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Modificamos el titulo de la pagina-->
+    <title>Basquetbool</title> 
+    <!--Conexión con css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Tipo de letra - coneccion google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1> Basquetbool</h1>
+        <!--IMAGENES-->
+        <!--Una forma de insertar imagenes es insertando el url de la pagiana-->
+        <!--En src (source) colocamos la dirrecion de la imagen y alt le damos una etiqueta a dicha imagen-->
+        <img class="logo" src="https://i.pinimg.com/236x/6a/91/7b/6a917b3e16f9f94f2dee8870b13cef1c.jpg" alt="Imagen de basquetbool"> 
+        <!--Otra forma de insertar imagenes es desde la carpeta de nuestro equipo-->
+        <!--Para encontrar las direcciones al inicion usamos "./" para ir indicando las direcciones-->
+        <!--Class nos permitira aplcarle estilos dentro de css-->
+        <img class="cancha" src="./img/cancha_basquet.jpg" alt="Imagen chancha de basquet">
+
+        <!--LISTAS-->
+        <!--h# nos indica el tamaño de la letra, el mas significativo siento la letra mas grande y el menos significativo es mas chica-->
+        <h3>Posiciones en el basquetbool</h3>
+        <!--ul es para listas no ordenadas-->
+        <!--li indicamos cada elemento de la lista-->
+        <ul>
+            <li>Base</li>
+            <li>Escolta</li>
+            <li>Alero</li>
+            <li>Ala-pívot</li>
+            <li>Pivot</li>
+        </ul>
+
+        <!--ol es para listas ordenadas-->
+        <h3>Dentro del juego</h3>
+        <ol>
+            <li>Violaciones</li>
+            <li>Faltas</li>
+        </ol>
+
+        <!--Con div le damos una estructura a nuestro documento-->
+        <!--href definimos el destino el destino enlace en forma de ancla con #-->
+        <!--En medio podemos indicar un titulo-->
+        <div>
+            <a href="#Viola">¿Qué son las violaciones?</a>
+            <a href="#fault">¿Qué son los fault?</a>
+            <a href="#tiposF">Tipos de fault</a>
+            <a href="#Reglas">Reglas básicas</a>
+        </div>
+
+        <!--Secciones de texto-->
+        <!--dentro de la etiqueta h# indicamos con "id" y el nombre que le dimos al ancla de redireccionamiento-->
+        <h3 id="Viola">¿Qué son las violaciones?</h3>
+        <!--Con p indicamos los parrafos de un texto-->
+        <p>Una violación es una infracción de las reglas de juego, penalizada con un saque de fondo o banda para el equipo contrario desde el punto más cercano al de la infracción.</p>
+        <img class="V" src="http://4.bp.blogspot.com/_ehdVass4whQ/ShaSyG5XYfI/AAAAAAAAAIA/dQBbeH42rVQ/s200/image002.gif" alt=" Imagen Violacion">
+        <h3 id="fault">¿Qué son los fault?</h3>
+        <p>La falta personal es una infracción en el ámbito del baloncesto. Cada jugador tiene un límite de 5 faltas para dar por partido, luego de las cuales deberá ser sustituido y no podrá volver a ingresar. Si el equipo no tiene suplente disponible, ya sea porque todos salieron por faltas o por lesión que impida a alguno ingresar, quedará con 4 jugadores en campo. El límite mínimo para que el partido continúe son 2 jugadores en cada conjunto, para poder realizar un movimiento básico cómo es sacar de banda y que un compañero reciba dentro de la cancha.</p>
+        <img class="F" src="https://entrenadordebasquet.com/wp-content/uploads/2019/09/Faltas-del-baloncesto.jpg" alt="Imagen Falta">
+        <h3 id="tiposF">Tipos de fault</h3>
+        <h4>Faltas personales</h4>
+        <p>Cuando hay contacto ilegal entre dos oponentes se produce una falta personal. Una falta realizada sobre un jugador que está lanzando corresponde el mismo número de tiros libres que lo que valdría su canasta (puede ser de dos o tres). Si el jugador logra lanzar igual y convierte, se gana los puntos y suma un tiro libre extra.
+
+            Además de en situaciones de tiro, se pueden cometer faltas personales en la carga del rebote, al intentar robar el balón o ante una finta del oponente. Todo este detalle corresponde a las faltas personales defensivas. Como en todo lo relacionado al baloncesto, las situaciones se dividen entre defensivas y ofensivas.
+            
+            Se llama falta ofensiva cuando el equipo del jugador que la comente tiene el balón en su poder. Las situaciones más habituales para cometer faltas ofensivas son al poner una cortina o bloqueo (el jugador no puede moverse y deben esperar que el compañero pase con el balón). Otra situación, quizás la que más se ve, es cuando el jugador con el balón generar contacto con su defensor, mientras éste está con la posición fija y sin moverse.
+            
+            Normalmente el contacto generado por el atacante con el hombro chocando contra el pecho del defensor se pita como falta ofensiva.</p>
+        <h4>Faltas Técnicas</h4>
+        <p>A diferencia de las faltas personales, que son de carácter físico, las faltas técnicas del baloncesto son en su mayoría por conductas o expresiones inapropiadas. Son posibles destinatarios de este tipo de faltas tanto jugadores que se encuentran dentro del campo como los que están en la banca. Inclusive a cualquier miembro del cuerpo técnico.
+
+            Se pueden dividir en dos orígenes, conductual y administrativo.</p>
+            <ul>
+                <!--con b indico las letras en negrita y br salto de pagina-->
+                <li><h5><b>De caracter conductual:</b></h5></li><br>
+                <ol>
+                    <li>Hacer caso omiso a las advertencias de los árbitros.</li>
+                    <li>Tocar irrespetuosamente a los referís, oficiales de mesa o banca del equipo.</li>
+                    <li>Utilizar lenguaje irrespetuoso o gestos que puedan ofender.</li>
+                </ol>
+                <li><h5><b>De orden administrativo:</b></h5></li><br>
+                <ol>
+                    <li>Molestar a un adversario o impedir su visión agitando las manos cerca de sus ojos.</li>
+                    <li>Retrasar el juego tocando el balón después de que el balón atraviese la canasta.</li>
+                    <li>Retrasar la pelota evitando que un saque se realice con rapidez.</li>
+                    <li>Dejarse caer para simular una falta. (Normalmente ofensiva).</li>
+                    <li>Colgarse del aro, a menos que lo haga para evitarse o evitar una lesión de alguien mas.</li>
+                    <li>Tocar el balón durante el ultimo o único tiro libre antes de que toque el aro o sea evidente que lo va a tocar. El castigo es de 1 punto al equipo del tirador, más los tiros de la falta técnica).</li>
+                    <li>Las faltas técnicas no se limitan a este listado, sino que se deja a consideración del arbitro tomar el control del juego si es necesario marcar una falta técnica por alguna otra situación esta autorizado para hacerlo.</li>
+                </ol>
+                <li><h5><b>Falta Antideportiva:</b></h5></li><br>
+                <p>Las faltas antideportivas en baloncesto representan a los contactos físicos desmedidos que se dan en perjuicio del jugador atacante, o que cumple alguno de los siguientes atenuantes.</p>
+                <ol>
+                    <li>No es un esfuerzo legítimo de jugar directamente el balón dentro del espíritu e intención del reglamento del baloncesto.</li>
+                    <li>Es un contacto excesivo y violento causado por un jugador en un esfuerzo por jugar el balón o sobre un oponente.</li>
+                    <li>Es un contacto innecesario causado por un defensor para detener la progresión del equipo atacante en transición.</li>
+                    <li>Esto se aplica hasta que el jugador atacante comience su acción de tiro.</li>
+                </ol>
+            </ul>
+        <h3 id="Reglas">Reglas básicas</h3>
+        <p>Algunas de las reglas basicas son:</p>
+        <ol>
+            <li>El balón puede ser lanzado en cualquier dirección, con una o dos manos.</li>
+            <li>El balón puede ser golpeado en cualquier dirección, con una o las dos manos (nunca con el puño o mano cerrada).</li>
+            <li>Los jugadores no podrán correr con el balón. Deberán pasarlo incluso desde otro lugar en el que lo cogieron, se concederá una relativa tolerancia al jugador que en plena carrera reciba el balón y deba pararse.</li>
+            <li>El balón no debe llevarse en ambas manos o entre ellas. Los brazos o el cuerpo no se deben usar para sostenerlo en ningún caso.</li>
+            <li>Está prohibido cargar con el hombro contra un adversario, así como agarrar, empujar, poner la zancadilla o golpear de manera alguna al oponente. Toda infracción a esta regla por parte de cualquier jugador se considerará una falta y en caso de reincidencia, el infractor será eliminado hasta que se consiga un nuevo cesto. Si la intención al golpear es evidente, el jugador será eliminado por el resto del partido y no podrá ser reemplazado.</li>
+            <li>Golpear con el puño el balón es falta, al ser violación de las reglas 2 y 4, sancionándose del mismo modo que la regla 5.</li>
+            <li>Si cualquiera de los equipos hace tres faltas personales consecutivas, se contabilizará una canasta para el equipo contrario (consecutivas significa que durante ese tiempo el oponente no haya cometido ninguna falta).</li>
+            <li>Se contará canasta cuando el balón sea lanzado, golpeado o palmado desde el suelo hasta la cesta y se quede en ella, los defensores nunca tienen que tocar el balón o dificulten la canasta. Si el balón se queda en el borde de la cesta sin llegar a entrar y el oponente mueve la canasta, se contabilizará como punto.</li>
+            <li>Cuando el balón salga fuera del campo de juego, volverá al campo. La primera persona que lo toque lo lanzará al campo de juego. En caso de discusión el árbitro (auxiliar) realizará un salto entre dos. El que saca dispone de cinco segundos para hacerlo; si retiene el balón más tiempo, el balón pasará al equipo contrario. Si cualquiera de los equipos persiste en retrasar el juego, el árbitro auxiliar le señalará falta.</li>
+            <li>El árbitro auxiliar será el juez que anote las faltas personales y avisará al árbitro principal cuando se cometan tres faltas consecutivas. Podrá descalificar a los jugadores según lo establecido en la regla número 5.</li>
+            <li>El árbitro principal juzgará lo que se refiere al balón y determinará cuando esté en juego o ha salido fuera, a que equipo pertenece, además de llevar el control del tiempo. Decidirá cuándo se ha marcado un tanto y contabilizará las canastas y asimismo realizará las obligaciones habituales de un árbitro.</li>
+            <li>El partido constará de dos partes de 15 minutos, con 5 minutos de descanso entre las mismas.</li>
+            <li>El equipo que obtenga el mayor número de cestos en ese espacio de tiempo será declarado ganador. En caso de empate, si los capitanes acuerdan hacerlo, el partido se podrá continuar hasta que se marque una canasta.</li>
+        </ol>
+
+        <p>Haz click para una sorpresa</p>
+        <!--Ancla para llevarnos a otro sitio-->
+        <a href="">
+            <img class="gatito-balon" src="https://img.freepik.com/fotos-premium/gatito-jugando-pelota-baloncesto_927978-1019.jpg?w=2000" alt="Imgagen gatito">
+        </a>
+
+        <!--FORMULARIOS-->
+        <form>
+        <!--Formulario input-->
+        <p>¿Quién marca los fault y violaciones?</p>
+        <!--Etiqueta identificadora-->
+        <label for="bas">
+            <input type="text">
+            <button class="button-bas">Enviar</button>
+        </label>
+        <!--Formulario input radio-->
+        <!--Name asocia las respuestas al mismo formulario-->
+        <!--For asocia cada respuesta individualmenete-->
+        <p>¿Cuál de las siguienetes opciones no es un tipo de fault?</p>
+        <label for="Personal">
+            <input type="radio" name="faltas" />Personales
+        </label>
+        <label for="tecnica">
+            <input type="radio" name="faltas" />Técnica
+        </label>
+        <label for="Albitro">
+            <input type="radio" name="faltas" />Albitral
+        </label>
+
+        <!--Formulario inpu checkbox-->
+        <p>¿Cuáles son las posiciones de los jugadores?</p>
+        <label for="Base">
+            <input type="checkbox" name="cada">Base
+        </label>
+        <label for="Escolta">
+            <input type="checkbox" name="cada">Escolta
+        </label>
+        <label for="Delantero">
+            <input type="checkbox" name="cada">Delantero
+        </label>
+        <label for="Alero">
+            <input type="checkbox" name="cada">Alero
+        </label>
+        <label for="Ala-pivot">
+            <input type="checkbox" name="cada">Ala-pivot
+        </label>
+        <label for="Pivot">
+            <input type="checkbox" name="cada">Piot
+        </label>
+        </form>
+    </main>
+    
+</body>
+</html>
